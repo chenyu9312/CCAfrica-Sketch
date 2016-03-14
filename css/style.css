@@ -1,0 +1,24 @@
+
+.navbar-brand{
+    font-size: 1.8em;
+}
+#topContainer{
+    background-image: url("city.jpg");
+    height: 400px;
+    width:100%;
+    background-size: cover;
+}
+#topRow{
+    margin-top: 100px;
+    text-align: center;
+}
+#topRow h1{
+      font-size: 300%;
+    
+}
+.bold{
+    font-weight: bold;
+}
+.paddingTop{
+    margin-top: 30px;
+}
