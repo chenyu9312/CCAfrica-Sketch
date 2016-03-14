@@ -21,7 +21,7 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar-collapse">
     <div class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -53,33 +53,70 @@
         </div>
     </div>
 
-    <div class="container" id="topContainer">
-        <div class="col-md-6 col-md-offser-3"" id="topRow">
-            <h1 class="marginTop">Header One</h1>
-            <p class="lead">Some more information about CCAfrica</p>
-             <p class="bold marginTop">Join Our Membership</p>
-             <form class="marginTop">
-                 <div class="input-group">
-                     <span class="input-group-addon">@</span>
-                     <input type ="email" class="form-control" placeholder="Email">
+    <div class="container contentContainer" id="topContainer">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3" " id="topRow ">
+           
+            <p class="lead ">Some more information about CCAfrica</p>
+             
+             <h2 class="bold marginTop ">Join Our Membership</h2>
+             <form class="marginTop ">
+                 <div class="input-group ">
+                     <span class="input-group-addon ">@</span>
+                     <input type ="email " class="form-control " placeholder="Email ">
                      
                 </div>
-                <input type="submit" class="btn btn-success btn-lg paddingTop"/>
+                <button type="submit " class="btn btn-success btn-lg marginTop ">Sign Up</button>
              </form>
         </div>
     </div>
+</div>
 
-
-
-
-
-
+    <div class="container contentContainer " id="details ">
+       
+        <div class="row " class="center ">
+            <h1 class="center title ">Why This Orgnazation is Important</h1>
+            <p class="lead center ">Summary of the organization's awesomeness</p>
+        </div>
+        
+        <div class="row marginBottom ">
+            <div class="col-md-4 marginTop ">
+                <h2><span class="glyphicon glyphicon-plane "></span>Header 1</h2>
+              <p>  A Brief Description of one of the best services provided by the organization for members.</p>
+                <button class="btn btn-success marginTop ">Members</button>
+            </div>
+        
+       
+            <div class="col-md-4 marginTop ">
+                <h2><span class="glyphicon glyphicon-pencil "></span>Header 2</h2>
+              <p>  A Brief Description of one of the best services provided by the organization for members.</p>
+                <button class="btn btn-success marginTop ">Media</button>
+            </div>
+        
+        
+            <div class="col-md-4 marginTop ">
+                <h2><span class="glyphicon glyphicon-briefcase "></span>Header 3</h2>
+              <p>  A Brief Description of one of the best services provided by the organization for members.</p>
+                <button class="btn btn-success marginTop ">Events</button>
+            </div>
+       
+        
+        </div>
+    </div>
+    
+    <div class="container contentContainer " id="footer">
+        <div class="row">
+            <h1 class="center title "> Media</h1>
+            <p class="lead center">Publication</p>
+            <p class="center"><img src="" class="africaImage"/>
+         </div>
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js "></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js "></script>
     <script>
-        $("#topContainer").css("height",$(window).height());
+        $("#contentContainer ").css("min-height ",$(window).height());
     </script>
 </body>
 
